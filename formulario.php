@@ -16,7 +16,7 @@
 
         if (valida($numero1, $numero2) == true){       
             pinta($numero1, $numero2);
-            //var_dump($_POST);
+            var_dump($_POST);
         } else {
             print "Error de contenido";
         }
